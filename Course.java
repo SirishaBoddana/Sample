@@ -18,6 +18,8 @@ public class Course {
 	private String title;
 	@Column(name = "Coursefee", length = 50)
 	private int Coursefee;
+	@Column(name = "Course", length = 50)
+	private String Course;
 	@Embedded
 	private Location l;
 	public Course(int id, String title, int coursefee, Location l) {
